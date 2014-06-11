@@ -14,7 +14,7 @@ Window {
     Rectangle {
         id: testRect
         anchors.fill: parent
-        color: mouseArea.pressed ? "green" : "yellow"
+        color: mouseArea.pressed ? 'green' : 'yellow'
         Behavior on color { ColorAnimation { duration: 1000 } }
     }
 }
